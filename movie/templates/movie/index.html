@@ -1,0 +1,26 @@
+{% extends "movie/base.html" %}
+{% load static %}
+{% block title %}
+  MovieApp - Home
+{% endblock title %}
+{% block content %}
+  <div class="container">
+    <div class="fomu2">
+      {% for message in messages %}
+              <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                 {{ message }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              {% endfor %}
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consequuntur sequi vel sunt recusandae a voluptatum, facere delectus vero asperiores dolore non nemo fugiat ratione molestias magni minima assumenda nihil?
+      </p>
+    </div>
+  </div>
+{% endblock content %}
