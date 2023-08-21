@@ -15,3 +15,8 @@ ul.errorlist li{
     color: rgb(172, 7, 7);
     font-size: 14px;
 }
+
+.end-road{
+    margin-right: 2rem;
+    margin-left: .8rem;
+}
